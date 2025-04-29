@@ -43,7 +43,7 @@ class PrepareBaseModel:
             metrics=["accuracy"]
         )
 
-        full_model.compile()
+        full_model.summary()
         return full_model
     
 
